@@ -1,0 +1,17 @@
+{
+  "cff-version": "1.2.0",
+  "message": "Si utiliza este instrumento, cite esta versión.",
+  "title": "AlgoPerformance",
+  "type": "software",
+  "authors": [
+    {
+      "given-names": "Juan Marcelo",
+      "family-names": "Chamorro Avendaño"
+    }
+  ],
+  "version": "1.0.0-rc.2",
+  "date-released": "2026-11-25",
+  "repository-code": "https://github.com/chelocoder/AlgoPerformance",
+  "license": "Apache-2.0",
+  "abstract": "Instrumento computacional para medir y registrar experimentalmente tiempos de ejecución de algoritmos."
+}

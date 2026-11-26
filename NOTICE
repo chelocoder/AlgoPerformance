@@ -1,0 +1,7 @@
+AlgoPerformance v1.0.0-rc.2
+Copyright 2026 Juan Marcelo Chamorro Avendaño, para el código autorizado sobre el cual tiene derechos suficientes.
+
+La licencia Apache-2.0 cubre el código autorizado y su forma compilada.
+Los datos de demostración, materiales de la tesis, evaluaciones y componentes de terceros conservan sus términos.
+El ejecutable candidato no redistribuye JDK, bibliotecas de JMH, Jackson ni JUnit.
+Se conservan las atribuciones que figuren en los archivos de origen.

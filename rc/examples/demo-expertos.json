@@ -1,0 +1,23 @@
+{
+  "campaign": "demo-expertos-rc2",
+  "purpose": "expert_demonstration",
+  "forks": 1,
+  "warmups": 2,
+  "measurements": 3,
+  "timeout_s": 8,
+  "global_timeout_s": 70,
+  "preparation_timeout_s": 45,
+  "preparation_case_timeout_s": 6,
+  "verification_timeout_s": 45,
+  "verification_case_timeout_s": 6,
+  "seeds": [42],
+  "algorithms": [
+    {"id":"array-index-read", "sizes":{"values":[64]}, "batch":64},
+    {"id":"binary-search-absent", "sizes":{"values":[63]}, "batch":32},
+    {"id":"array-sum", "sizes":{"values":[1000]}, "batch":8},
+    {"id":"merge-sort", "sizes":{"values":[1000]}, "batch":1},
+    {"id":"insertion-sort-reverse", "sizes":{"values":[100]}, "batch":1},
+    {"id":"dense-matrix-multiply", "sizes":{"values":[32]}, "batch":1},
+    {"id":"fibonacci-naive", "sizes":{"values":[10]}, "seeds":[42], "batch":1}
+  ]
+}

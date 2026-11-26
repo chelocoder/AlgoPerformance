@@ -1,0 +1,39 @@
+# Java y Maven
+**/target/
+*.class
+*.jar
+!/instrument/.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*.log
+replay_pid*.log
+
+# NetBeans y verificación local
+**/nbproject/private/
+/.local/
+
+# Configuración local con posibles secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Resultados generados y respaldados según README
+/datasets/raw/*
+!/datasets/raw/.gitkeep
+/datasets/processed/*
+!/datasets/processed/.gitkeep
+
+# Resultados definitivos locales y registros de completitud
+/datasets/definitive/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

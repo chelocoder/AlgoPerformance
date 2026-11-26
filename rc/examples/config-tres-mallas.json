@@ -1,0 +1,15 @@
+{
+ "campaign":"example-functional",
+ "forks":2,
+ "warmups":5,
+ "measurements":8,
+ "timeout_s":12,
+ "global_timeout_s":180,
+ "seeds":[42],
+ "algorithms":[
+   {"id":"array-index-read","sizes":{"start":64,"step":32,"count":3},"batch":32},
+   {"id":"array-sum","sizes":{"start":100,"ratio":2,"count":3},"seeds":[42,90173],"batch":8},
+   {"id":"insertion-sort-reverse","sizes":{"values":[16,32,64]},"batch":1}
+ ]
+}
+

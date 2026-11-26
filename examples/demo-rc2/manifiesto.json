@@ -1,0 +1,20 @@
+{
+  "campaign": "demo-expertos-rc2",
+  "version": "1.0.0-rc.2",
+  "status": "complete",
+  "purpose": "expert_demonstration",
+  "classification": "candidate_evidence",
+  "configuration_sha256": "00778b7e031662ba72bc5ceafb89b0d09ee43fbe4d807d64da765d9e847b89ec",
+  "artifact_sha256": "bc94bd1b0781a5a354ad9a3dd8f00cbea3d0e50bb0ebeccfb55d310cb6474276",
+  "expected_forks": 7,
+  "completed_forks": 7,
+  "expected_measurements": 21,
+  "valid_measurements": 21,
+  "warmup_intervals": 14,
+  "pending_cases": [],
+  "files": {
+    "original.csv": "79f84502732ff85b1ff41edf3fda93c4ab3a76ad7d9876b3dfc3ef45dce70f07",
+    "consolidado.csv": "3f72c10f18c73d242d3251d810d98f4ae81ac151907a23faa3fe730fce5bd9b3"
+  },
+  "proyeccion_original": "Se omitieron las columnas pid y attempt"
+}
